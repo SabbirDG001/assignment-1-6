@@ -39,7 +39,7 @@ body{
 }
 .donation-form h2{
     font-weight: 700;
-    font-size: 40px;
+    font-size: 35px;
     color: darkorange;
 }
 .amount{
@@ -49,9 +49,11 @@ body{
     display: inline;
     padding: 30px;
     margin-right: 15px;
+    background-color: #b2b4b2;
 }
 #middle-money{
     border: 3px solid gray;
+    background-color: #b2d8bb;
 }
 #amount-field{
     border: none;
@@ -92,6 +94,12 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
+.sector img{
+    width: 10%;
+}
+.sector h3{
+    font-weight: 700;
+}
 #food{
     background-color: bisque;
 }
@@ -101,33 +109,35 @@ body{
 #shelter{
     background-color: rgb(160, 238, 115);
 }
-.inspiration{
-    display: flex;
+.donation-news{
     margin: 50px;
 }
-.inspiration-details{
-    width: 100%;
-    margin: 0px 15%;
-}
-.inspiration-details h2{
+.donation-news h2{
+    margin-left: 20px;
     font-size: 35px;
-    color: orangered;
+    color: rgb(0, 195, 255);
 }
-.inspiration-details p{
-    font-size: 20px;
-    font-weight: bold;
+.news{
+    display: flex;
 }
-.inspiration-details a{
-    background-color: #FF5959;
+.news div{
+    padding: 20px 20px;
+    background-color: rgb(223, 224, 224);
+    margin: 0px 10px;
+}
+.news div img{
+    width: 352px;
+    height: 234px
+}
+.news div p{
+    font-weight: 500;
+}
+.news div a{
     text-decoration: none;
+    padding: 7px;
+    border-radius: 4px;
     color: white;
-    padding: 12px 17px;
-    border-radius: 5px;
-    font-weight: 600;
-    font-size: 19px;
-}
-.inspiration img{
-    width: 100%;
+    background-color: rgb(168, 167, 167);
 }
 .donation-updates{
     margin: 80px 50px;
@@ -166,11 +176,17 @@ body{
 }
 footer{
     text-align: center;
-    font-size: 30px;
-    font-weight: 300;
-    background-color: rgb(49, 44, 44);
-    color: rgb(255, 255, 255);
     margin: 0;
     padding: 3px;
+    background-color: rgb(49, 44, 44);
+}
+footer h6{
     text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 300;
+    color: rgb(0, 240, 220);
+}
+footer p{
+    font-size: small;
+    color: white;
 }
