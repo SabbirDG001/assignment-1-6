@@ -101,3 +101,76 @@ body{
 #shelter{
     background-color: rgb(160, 238, 115);
 }
+.inspiration{
+    display: flex;
+    margin: 50px;
+}
+.inspiration-details{
+    width: 100%;
+    margin: 0px 15%;
+}
+.inspiration-details h2{
+    font-size: 35px;
+    color: orangered;
+}
+.inspiration-details p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.inspiration-details a{
+    background-color: #FF5959;
+    text-decoration: none;
+    color: white;
+    padding: 12px 17px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.inspiration img{
+    width: 100%;
+}
+.donation-updates{
+    margin: 80px 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.donation-updates h1{
+    font-size: 45px;
+    color: olivedrab;
+}
+.subscribe-field{
+    margin: 60px 300px;
+    padding: 40px 40px;
+    background-color: #c8ecaa;
+    border-radius: 6px;
+}
+.subscribe-field input{
+    width: 251px;
+    height: 37px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    outline: none;
+    padding: 0px 10px;
+    margin-right: 0;
+}
+.subscribe-field a{
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: rgb(221, 93, 83);
+    color: white;
+    font-weight: 600;
+    margin-left: 0;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+footer{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    background-color: rgb(49, 44, 44);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 3px;
+    text-transform: capitalize;
+}
