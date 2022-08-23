@@ -1,3 +1,103 @@
 body{
     font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+.donation-top{
+    background-image: url(images/220628180819-01-bangladesh-flood-relief-super-tease.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.donation-title{
+    padding: 15% 20% 20%;
+    text-align: center;
+}
+.donation-title h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+.donation-title h3{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+.donation-title a{
+    background-color: #FF5959;
+    text-decoration: none;
+    color: white;
+    padding: 12px 17px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 19px;
+
+}
+.donation-form{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 90px;
+}
+.donation-form h2{
+    font-weight: 700;
+    font-size: 40px;
+    color: darkorange;
+}
+.amount{
+    margin: 60px;
+}
+.amount h3{
+    display: inline;
+    padding: 30px;
+    margin-right: 15px;
+}
+#middle-money{
+    border: 3px solid gray;
+}
+#amount-field{
+    border: none;
+    width: 50%;
+    border-bottom: 2px solid gray;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: large;
+    font-weight: 700;
+    outline: none;
+}
+.donation-form a{
+    background-color: #FF5959;
+    text-decoration: none;
+    color: white;
+    padding: 12px 17px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.donation-plan{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+.donation-plan h2{
+    font-size: 35px;
+    color: chocolate;
+}
+.sector{
+    display: flex;
+    text-align: left;
+    margin: 0px 40px;
+}
+.sector div{
+    padding: 50px 20px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#food{
+    background-color: bisque;
+}
+#clothes{
+    background-color: rgb(192, 211, 106);
+}
+#shelter{
+    background-color: rgb(160, 238, 115);
 }
